@@ -1,0 +1,23 @@
+# Dependencias
+node_modules/
+
+# Build
+frontend/dist/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Runtime
+.seeded
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.suo
+*.user
