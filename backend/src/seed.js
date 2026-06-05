@@ -10,6 +10,7 @@ const cvData = {
     'Ingeniero en Computación y Desarrollador .NET Full Stack con más de 8 años de experiencia en el desarrollo de aplicaciones empresariales utilizando .NET Core, C#, APIs REST, SQL, MongoDB y Azure. Fuerte capacidad analítica, foco en calidad, y experiencia en mantenimiento, optimización y automatización de procesos. Especialista en backend, APIs y arquitectura limpia.',
   contact: {
     email: 'ing.torresma@gmail.com',
+    phone: '+54 9 381 515 6095',
     location: 'Argentina',
     linkedin: 'linkedin.com/in/marcelo-alejandro-torres',
     github: 'github.com',
