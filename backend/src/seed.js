@@ -11,7 +11,7 @@ const cvData = {
   contact: {
     email: 'ing.torresma@gmail.com',
     location: 'Argentina',
-    linkedin: 'https://www.linkedin.com/in/marcelo-alejandro-torres',
+    linkedin: 'linkedin.com/in/marcelo-alejandro-torres',
     github: 'github.com',
   },
   stats: {
