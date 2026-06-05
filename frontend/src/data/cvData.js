@@ -5,10 +5,10 @@ const cvData = {
   profile:
     'Ingeniero en Computación y Desarrollador .NET Full Stack con más de 8 años de experiencia en el desarrollo de aplicaciones empresariales utilizando .NET Core, C#, APIs REST, SQL, MongoDB y Azure. Fuerte capacidad analítica, foco en calidad, y experiencia en mantenimiento, optimización y automatización de procesos. Especialista en backend, APIs y arquitectura limpia.',
   contact: {
-    email: 'marcelo.torres@accenture.com',
+    email: 'ing.torresma@gmail.com',
     location: 'Argentina',
-    linkedin: 'linkedin.com/in/marcelo-torres-dev',
-    github: 'github.com/marcelo-torres-dev',
+    linkedin: 'https://www.linkedin.com/in/marcelo-alejandro-torres',
+    github: 'github.com',
   },
   stats: {
     yearsExperience: 8,
