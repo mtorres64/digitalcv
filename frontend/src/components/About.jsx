@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { FiMail, FiMapPin, FiLinkedin, FiCode, FiUsers, FiAward } from 'react-icons/fi'
+import { FiMail, FiMapPin, FiLinkedin, FiPhone, FiCode, FiUsers, FiAward } from 'react-icons/fi'
 
 const containerVariants = {
   hidden: {},
@@ -97,6 +97,22 @@ export default function About({ cvData }) {
                   <div>
                     <div className="text-xs text-slate-400 uppercase tracking-wide mb-0.5">Email</div>
                     <div className="text-slate-800 font-medium text-sm">{cvData.contact.email}</div>
+                  </div>
+                </motion.a>
+              )}
+
+              {cvData?.contact?.phone && (
+                <motion.a
+                  variants={itemVariants}
+                  href={`tel:${cvData.contact.phone.replace(/\s/g, '')}`}
+                  className="flex items-center gap-4 bg-white rounded-xl p-4 border border-slate-200 hover:border-emerald-400/50 hover:shadow-sm transition-all group"
+                >
+                  <div className="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center group-hover:bg-emerald-100 transition-colors flex-shrink-0">
+                    <FiPhone className="w-4 h-4 text-emerald-600" />
+                  </div>
+                  <div>
+                    <div className="text-xs text-slate-400 uppercase tracking-wide mb-0.5">Teléfono</div>
+                    <div className="text-slate-800 font-medium text-sm">{cvData.contact.phone}</div>
                   </div>
                 </motion.a>
               )}

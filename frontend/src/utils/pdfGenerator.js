@@ -103,7 +103,7 @@ export async function generateCVPdf(cv) {
 
   doc.setFontSize(9)
   doc.setTextColor('#e0e7ff')
-  doc.text([cv.contact?.email, cv.contact?.location].filter(Boolean).join('   ·   '), ML, 35)
+  doc.text([cv.contact?.email, cv.contact?.phone, cv.contact?.location].filter(Boolean).join('   ·   '), ML, 35)
 
   if (cv.contact?.linkedin) {
     doc.setFontSize(8.5)
